@@ -29,17 +29,29 @@ AWS Resource Architechture
 *  AWS Resources Configurations:
   •EC2 Instance: First, I set up an EC2 instance and installed Node.js and Nginx as the web server. Then, I cloned the project from Git repositories and configured Nginx to route /api requests to the Node server while 
    directing all other requests to the React app.
+   
   •AutoScaling Group: To ensure high availability and scalability, I configured an auto-scaling policy. The system can scale to a maximum of 2 instances, with a desired instance count set to 1.
+  
   •Application Load Balancer: I implemented a load balancer to distribute incoming traffic evenly across instances, reducing the load on the server.
+  
   •S3: I used Amazon S3 to store and manage user-uploaded files, employing the Standard S3 storage class.
+  
   •S3-Standard Infrequent Access: For cost efficiency, I set up lifecycle rules for the S3 bucket, moving objects to the Standard Infrequent Access storage class after 75 days.
+  
   •Transfer Acceleration for S3 Bucket: I enabled Transfer Acceleration for the S3 bucket, ensuring secure and faster data transfer.
+  
   •AWS Glacier for S3 Bucket: For long-term storage, I configured files to transition to the Glacier storage class after 365 days.
+  
   •RDS: A Relational Database Service (RDS) instance was created to maintain records of user-uploaded files and their associated parameters, such as descriptions, creation, and update timestamps.
+  
   •CloudFront: I established a CloudFront distribution optimized for file downloads.
+  
   •Route 53: I utilized Amazon Route 53 as the Domain Name Server to resolve the IP address of the application's domain.
+  
   •CloudWatch: To monitor the health of the auto-scaling, EC2 instances, and Lambda functions, I set up CloudWatch.
+  
   •Lambda: In response to delete events in the original S3 bucket, I created a Lambda function in Node.js. This function trighgers deleting the object from destination bucket as well.
+  
   •SNS: The Simple Notification Service (SNS) was configured to notify AWS resources via email whenever an upload occurred in the S3 bucket, as specified in the topic.
 
 * Sample screenshots
