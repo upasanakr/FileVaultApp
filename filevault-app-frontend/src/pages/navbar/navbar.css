@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Background color for the Navbar */
+    padding: 10px 20px;
+    color: white; /* Text color for Navbar items */
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .blue-button {
+    background-color: blue; /* Blue color for the button */
+    color: white; /* Text color for the button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin to separate button from other Navbar items */
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 20px; /* Add space between Navbar links */
+  }
+  
+  .navbar-right a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Style the button when hovered */
+  .blue-button:hover {
+    background-color: darkblue; /* Change color on hover */
+  }
