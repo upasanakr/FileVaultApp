@@ -27,8 +27,9 @@ AWS Resource Architechture
 
 
 *  AWS Resources Configurations:
-  •EC2 Instance: First, I set up an EC2 instance and installed Node.js and Nginx as the web server. Then, I cloned the project from Git repositories and configured Nginx to route /api requests to the Node server while 
-   directing all other requests to the React app.
+  
+  •EC2 Instance: First, I set up an EC2 instance and installed Node.js and Nginx as the web server. Then, I cloned the project from Git repositories and configured Nginx to route /api requests to the Node server 
+   while directing all other requests to the React app.
    
   •AutoScaling Group: To ensure high availability and scalability, I configured an auto-scaling policy. The system can scale to a maximum of 2 instances, with a desired instance count set to 1.
   
