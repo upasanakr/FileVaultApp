@@ -1,0 +1,1 @@
+Insert into user (is_admin, email, first_name, last_name, password) values(1, 'admin@admin.com', 'Super', 'User', 'admin');
