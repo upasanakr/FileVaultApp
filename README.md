@@ -56,13 +56,13 @@ AWS Resource Architechture
   
   •CloudWatch: To monitor the health of the auto-scaling, EC2 instances, and Lambda functions, I set up CloudWatch.
   
-  •Lambda: In response to delete events in the original S3 bucket, I created a Lambda function in Node.js. This function trighgers deleting the object from destination bucket as well.
+  •Lambda: In response to delete events in the original S3 bucket, I created a Lambda function in Node.js. This function triggers deleting the object from  destination bucket as well.
   
   •SNS: The Simple Notification Service (SNS) was configured to notify AWS resources via email whenever an upload occurred in the S3 bucket, as specified in the topic.
 
 * Sample screenshots
 
-Landing Page
+Home Page
 <img width="1672" alt="image" src="https://github.com/upasanakr/FileVaultApp/assets/144417727/6b2e2b90-c307-4301-a2c3-98a101337f1e">
 
 Registration
@@ -72,7 +72,7 @@ Login
 <img width="1672" alt="image" src="https://github.com/upasanakr/FileVaultApp/assets/144417727/b4d5a9e8-c9bc-4b5c-a3c2-bd1bb030ee03">
 
 
-HomePage
+Landing Page
 <img width="1672" alt="image" src="https://github.com/upasanakr/FileVaultApp/assets/144417727/2b22bb87-a7ab-4443-8809-e7271a7c5a42">
 
 
