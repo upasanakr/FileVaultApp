@@ -17,12 +17,17 @@ AWS Resource Architechture
 
 <img width="1115" alt="image" src="https://github.com/upasanakr/FileVaultApp/assets/144417727/5b036494-cddb-47b4-991b-5e9741634837">
 
-*Instructions to run project locally
+
+* Instructions to run project locally
 
 • Downlaod Software -Java SDK 17 , Intellij IDEA , MySQL Workbench , Internet Browser Local configuration 
+
 • Clone the code from git
+
 • Run npm install on  React project to install all the dependencies.
+
 • Run the react app using npm start command.
+
 • Configure AWS access key , secret key ,RDS Username,RDS Password and Bucket Name in the env variable.
 
 
