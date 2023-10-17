@@ -12,7 +12,7 @@ Application link - http://filevaultonline.com/
 
 Application Demo Video :https://vimeo.com/874970646
 
-AWS Configurations Demo Video : https://vimeo.com/875020802
+AWS Configurations Demo Video :  https://vimeo.com/875020802
 
 
 
